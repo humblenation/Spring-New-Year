@@ -38,3 +38,11 @@ body{
         display: block;
     }
 }
+.det{
+    color: #ffffff;
+    position: absolute;
+    top: 55%;
+    left: 20%;
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+}

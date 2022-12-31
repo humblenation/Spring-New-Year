@@ -15,3 +15,20 @@ setInterval((
         }
     }
     ), 1000)
+
+let det = document.querySelector(".det")
+setInterval((
+    function details(){
+        let nows = new Date();
+        let hour = nows.getHours();
+        let mins = nows.getMinutes();
+        let conHour = 24 - hour
+        let conMin = 60 - mins
+        det.innerHTML = `${conHour} hour(s), ${conMin} minute(s) to 2023`
+        if(conHour = 0){
+            det.style.display = "none";
+        }else{
+            det.style.display = "block";
+        }
+    }
+), 1000)
