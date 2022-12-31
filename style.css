@@ -11,22 +11,22 @@ body{
 .logo{
     position: absolute;
     left: 44%;
-    top: -5%;
-    width: 17%;
+    /* top: %; */
+    width: 20%;
 }
 .hny{
     position: absolute;
-    left: 30%;
+    left: 13%;
     top: 2%;
-    width: 45%;
+    width: 75%;
 }
 .time{
     color: #ffffff;
     font-family: 'Lato', sans-serif;
     position: absolute;
     font-size: 900%;
-    margin-left: 12%;
-    margin-top: 15%;
+    margin-left: 8%;
+    margin-top: 27%;
 }
 @keyframes kants {
     from {
