@@ -24,7 +24,7 @@ setInterval((
         let mins = nows.getMinutes();
         let conHour = 24 - hour -1
         let conMin = 60 - mins
-        det.innerHTML = `${conHour} hour(s), ${conMin} minute(s) to 2023`
+        det.innerHTML = `${conMin} minute(s) to 2023`
         if(hour == 00){
             det.style.display = "none";
         }else{
