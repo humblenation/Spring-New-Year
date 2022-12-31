@@ -22,7 +22,7 @@ setInterval((
         let nows = new Date();
         let hour = nows.getHours();
         let mins = nows.getMinutes();
-        let conHour = 24 - hour
+        let conHour = 24 - hour -1
         let conMin = 60 - mins
         det.innerHTML = `${conHour} hour(s), ${conMin} minute(s) to 2023`
         if(conHour = 0){
