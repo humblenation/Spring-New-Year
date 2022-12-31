@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+
+body{
+    background: #000000;
+}
+.year{
+    display: none;
+    animation-name: kants;
+    animation-duration: 2s;
+}
+.logo{
+    position: absolute;
+    left: 44%;
+    top: -5%;
+    width: 17%;
+}
+.hny{
+    position: absolute;
+    left: 30%;
+    top: 2%;
+    width: 45%;
+}
+.time{
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    font-size: 1050%;
+    margin-left: 12%;
+    margin-top: 15%;
+}
+@keyframes kants {
+    from {
+        opacity: 0%;
+        display: none;
+    }
+    to {
+        opacity: 100%;
+        display: block;
+    }
+}
