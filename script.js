@@ -25,7 +25,7 @@ setInterval((
         let conHour = 24 - hour -1
         let conMin = 60 - mins
         det.innerHTML = `${conHour} hour(s), ${conMin} minute(s) to 2023`
-        if(conHour = 0){
+        if(hour = 0){
             det.style.display = "none";
         }else{
             det.style.display = "block";
